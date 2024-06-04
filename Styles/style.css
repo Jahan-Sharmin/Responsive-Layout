@@ -15,7 +15,39 @@ body {
     margin-bottom: 26px;
     
   }
- 
+ nav{
+    background-color: #562EFF;
+    height: 92px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+ }
+ nav img{
+    height: 51px;
+    width: 51px;
+    padding-right: 10px;
+ }
+ nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+ }
+ .nav-title{
+    
+    display: flex;
+    align-items: center;
+
+ }
+ .nav-links{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    
+ }
   .container{
     background-color:#FFFFFF;
     width: 870px;
